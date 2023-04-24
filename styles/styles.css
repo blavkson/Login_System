@@ -1,0 +1,124 @@
+  /* index styles */
+
+  .container-co {
+    background: #eee;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+ }
+
+ .container-co .content{
+    text-align: center;
+ }
+
+ .container-co .content h3{
+    font-size: 30px;
+    color: #333;
+ }
+
+ .container-co .content h1, h2, h3{
+    font-size: 40px;
+    color: #333;
+ }
+
+ .container-co .content h1 span, h2 span, h3 span, p span{
+    background: hsl(354, 100%, 52%);
+    color: #eee;
+    border-radius: 5px;
+    padding: 0 15px;
+ }
+
+ .container-co .content p{
+   margin-top: 10px;
+   font-size: 20px;
+   color: #333;
+ }
+
+ .container-co .content p a{
+   text-decoration: none;
+   color: hsl(354, 100%, 52%);
+ }
+
+ .form-container{
+    background: #eee;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+ }
+
+ .form-container form {
+    padding: 20px;
+    margin: 15px 0 -70px;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px rgba(0,0,0,.1);
+    background: #fff;
+    text-align: center;
+    width: 500px;
+ }
+
+ .form-container form h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #333;
+ }
+
+ .form-container form input,
+ .form-container form select,
+ .form-container form p{
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 17px;
+    margin: 8px 0;
+    background: #eee;
+    border-radius: 5px;
+ }
+
+ .form-container form select option{
+    background: #fff;
+ }
+
+ .form-container form .form-btn{
+    background: #fff;
+    color: hsl(354, 100%, 52%);
+    text-transform: capitalize;
+    font-size: 25px;
+    cursor: pointer;
+ }
+
+ .form-container form .form-btn:hover{
+    background: hsl(354, 100%, 52%);
+    color: #fff;
+ }
+
+ .form-container form p{
+    margin-top: 10px;
+    font-size: 20px;
+    color: #333;
+ }
+
+ .form-container p a{
+    text-decoration: none;
+    color: hsl(354, 100%, 52%);
+ }
+
+ .form-container form .error-msg{
+    margin: 5px 0;
+    display: block;
+    background: hsl(354, 100%, 52%);
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+ }
+
+ .form-container .course-name{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+ }
